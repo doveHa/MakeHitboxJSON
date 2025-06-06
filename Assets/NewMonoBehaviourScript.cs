@@ -10,6 +10,8 @@ public class NewMonoBehaviourScript : MonoBehaviour
     public List<CharacterAllStatement> CharacterAllLeftSideStatements = new List<CharacterAllStatement>();
     public List<CharacterAllStatement> CharacterAllRightSideStatements = new List<CharacterAllStatement>();
 
+    public float Scale;
+
     void Start()
     {
         StreamWriter LeftWriter = new StreamWriter("Assets/Hitbox.txt/LeftSideHitbox.txt");
@@ -48,15 +50,14 @@ public class NewMonoBehaviourScript : MonoBehaviour
         RightWriter.Flush();
         RightWriter.Close();
     }
-    
+
     private FrameData GetRightSideFrameData(Transform transform)
     {
         int frameNumber = int.Parse(transform.name);
-        float scale = 1.5f;
 
         // 원래 중심 위치
         Vector3 originalCenter = transform.GetChild(0).localPosition;
-        float[] center = new float[] { originalCenter.x * scale, originalCenter.y * scale };
+        float[] center = new float[] { originalCenter.x * Scale, originalCenter.y * Scale };
 
         List<HurtBox> hurtBoxes = new List<HurtBox>();
 
@@ -69,7 +70,7 @@ public class NewMonoBehaviourScript : MonoBehaviour
             Vector3 worldBoxCenter = part.TransformPoint(boxCollider.center);
 
             // 2. 확대 후 중심 기준으로 좌우 반전
-            Vector3 scaledWorldCenter = (worldBoxCenter - transform.position) * scale + transform.position;
+            Vector3 scaledWorldCenter = (worldBoxCenter - transform.position) * Scale + transform.position;
 
             // 좌우 반전 (중심 기준 대칭)
             float mirroredX = 2 * transform.position.x - scaledWorldCenter.x;
@@ -79,7 +80,7 @@ public class NewMonoBehaviourScript : MonoBehaviour
             Vector3 localOffset = transform.InverseTransformPoint(mirroredWorldCenter);
 
             // 4. 크기 확대
-            Vector3 scaledSize = boxCollider.size * scale;
+            Vector3 scaledSize = boxCollider.size * Scale;
 
             // 저장
             HurtBox hurtBox = new HurtBox();

@@ -1800,6 +1800,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: RightLeg
       objectReference: {fileID: 0}
+    - target: {fileID: 5652556569929356424, guid: c0f0c0b40258b4a41b16f72645709af8, type: 3}
+      propertyPath: Scale
+      value: 1.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5652556569929356424, guid: c0f0c0b40258b4a41b16f72645709af8, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5658167441056666046, guid: c0f0c0b40258b4a41b16f72645709af8, type: 3}
       propertyPath: m_Name
       value: RightLeg
@@ -3704,9 +3712,61 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 625763669065923785, guid: 169d9b95857a43142b85ca5680ddef6f, type: 3}
+      propertyPath: m_Name
+      value: Idle
+      objectReference: {fileID: 0}
+    - target: {fileID: 847469819068920302, guid: 169d9b95857a43142b85ca5680ddef6f, type: 3}
+      propertyPath: m_Size.x
+      value: 1.78
+      objectReference: {fileID: 0}
+    - target: {fileID: 847469819068920302, guid: 169d9b95857a43142b85ca5680ddef6f, type: 3}
+      propertyPath: m_Size.y
+      value: 2.41
+      objectReference: {fileID: 0}
+    - target: {fileID: 847469819068920302, guid: 169d9b95857a43142b85ca5680ddef6f, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 8511586618924088186, guid: 68afc6a942f041441b6ade21ac08ab0c, type: 3}
+    - target: {fileID: 1193929093568344773, guid: 169d9b95857a43142b85ca5680ddef6f, type: 3}
+      propertyPath: m_Size.x
+      value: 2.08
+      objectReference: {fileID: 0}
+    - target: {fileID: 1193929093568344773, guid: 169d9b95857a43142b85ca5680ddef6f, type: 3}
+      propertyPath: m_Size.y
+      value: 2.24
+      objectReference: {fileID: 0}
+    - target: {fileID: 1193929093568344773, guid: 169d9b95857a43142b85ca5680ddef6f, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: -7458691169465416630, guid: 85c4a3b0272acc04e9072e1ae5275d28, type: 3}
     - target: {fileID: 2162490254398884026, guid: 169d9b95857a43142b85ca5680ddef6f, type: 3}
       propertyPath: m_Name
       value: Kagetsu
+      objectReference: {fileID: 0}
+    - target: {fileID: 2665760902944326543, guid: 169d9b95857a43142b85ca5680ddef6f, type: 3}
+      propertyPath: m_Name
+      value: IttoRyotan
+      objectReference: {fileID: 0}
+    - target: {fileID: 2671455170805146218, guid: 169d9b95857a43142b85ca5680ddef6f, type: 3}
+      propertyPath: m_Size.x
+      value: 1.72
+      objectReference: {fileID: 0}
+    - target: {fileID: 2671455170805146218, guid: 169d9b95857a43142b85ca5680ddef6f, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 3306335875233583201, guid: 68afc6a942f041441b6ade21ac08ab0c, type: 3}
+    - target: {fileID: 2740489920484576430, guid: 169d9b95857a43142b85ca5680ddef6f, type: 3}
+      propertyPath: m_Name
+      value: NageKunai
+      objectReference: {fileID: 0}
+    - target: {fileID: 3597667410791210952, guid: 169d9b95857a43142b85ca5680ddef6f, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 6652921588364457456, guid: 1c732c84d9dc84841b8641b0e937a4a4, type: 3}
+    - target: {fileID: 3597667410791210952, guid: 169d9b95857a43142b85ca5680ddef6f, type: 3}
+      propertyPath: m_WasSpriteAssigned
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4054202723921834145, guid: 169d9b95857a43142b85ca5680ddef6f, type: 3}
       propertyPath: m_LocalPosition.x
@@ -3748,10 +3808,54 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4792629796299668198, guid: 169d9b95857a43142b85ca5680ddef6f, type: 3}
+      propertyPath: m_Name
+      value: Sangiri
+      objectReference: {fileID: 0}
+    - target: {fileID: 4977148742115914820, guid: 169d9b95857a43142b85ca5680ddef6f, type: 3}
+      propertyPath: m_Size.x
+      value: 1.78
+      objectReference: {fileID: 0}
+    - target: {fileID: 4977148742115914820, guid: 169d9b95857a43142b85ca5680ddef6f, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 3188269498457771536, guid: 68afc6a942f041441b6ade21ac08ab0c, type: 3}
+    - target: {fileID: 5234519364036061382, guid: 169d9b95857a43142b85ca5680ddef6f, type: 3}
+      propertyPath: m_Name
+      value: Nageru
+      objectReference: {fileID: 0}
+    - target: {fileID: 5899345856846330144, guid: 169d9b95857a43142b85ca5680ddef6f, type: 3}
+      propertyPath: Scale
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 5899345856846330144, guid: 169d9b95857a43142b85ca5680ddef6f, type: 3}
       propertyPath: m_Enabled
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 7233768766023964746, guid: 169d9b95857a43142b85ca5680ddef6f, type: 3}
+      propertyPath: m_Size.x
+      value: 2.44
+      objectReference: {fileID: 0}
+    - target: {fileID: 7233768766023964746, guid: 169d9b95857a43142b85ca5680ddef6f, type: 3}
+      propertyPath: m_Size.y
+      value: 2.34
+      objectReference: {fileID: 0}
+    - target: {fileID: 7233768766023964746, guid: 169d9b95857a43142b85ca5680ddef6f, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 5727622667265472418, guid: 85c4a3b0272acc04e9072e1ae5275d28, type: 3}
+    - target: {fileID: 8765740073832475803, guid: 169d9b95857a43142b85ca5680ddef6f, type: 3}
+      propertyPath: m_Size.x
+      value: 1.86
+      objectReference: {fileID: 0}
+    - target: {fileID: 8765740073832475803, guid: 169d9b95857a43142b85ca5680ddef6f, type: 3}
+      propertyPath: m_Size.y
+      value: 2.41
+      objectReference: {fileID: 0}
+    - target: {fileID: 8765740073832475803, guid: 169d9b95857a43142b85ca5680ddef6f, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: -8600857377299105517, guid: 68afc6a942f041441b6ade21ac08ab0c, type: 3}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
