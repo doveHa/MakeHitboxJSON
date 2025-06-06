@@ -1,3 +1,4 @@
+/*
 using System;
 using System.Collections.Generic;
 using System.IO;
@@ -135,6 +136,185 @@ public class NewMonoBehaviourScript : MonoBehaviour
 
     void Update()
     {
+    }
+
+    public class HurtBox
+    {
+        public string PartName { get; set; }
+        public float[] OffSet { get; set; }
+        public float[] Size { get; set; }
+    }
+
+    public class FrameData
+    {
+        public FrameData(int frameNumber, float[] center, List<HurtBox> hurtBoxes)
+        {
+            FrameNumber = frameNumber;
+            Center = center;
+            HurtBoxes = hurtBoxes;
+        }
+
+        public int FrameNumber { get; set; }
+        public float[] Center { get; set; }
+        public List<HurtBox> HurtBoxes { get; set; }
+    }
+
+    public class CharacterAllStatement
+    {
+        public string Statement { get; set; }
+        public List<FrameData> FrameData { get; set; }
+    }
+}*/
+
+using System;
+using System.Collections.Generic;
+using System.IO;
+using UnityEngine;
+using System.Text.Json;
+
+public class NewMonoBehaviourScript : MonoBehaviour
+{
+    public List<CharacterAllStatement> CharacterAllLeftSideStatements = new List<CharacterAllStatement>();
+    public List<CharacterAllStatement> CharacterAllRightSideStatements = new List<CharacterAllStatement>();
+
+    public float Scale;
+
+    void Start()
+    {
+        StreamWriter LeftWriter = new StreamWriter("Assets/Hitbox.txt/LeftSideHitbox.txt");
+        StreamWriter RightWriter = new StreamWriter("Assets/Hitbox.txt/RightSideHitbox.txt");
+
+        for (int i = 0; i < transform.childCount; i++)
+        {
+            Transform child = transform.GetChild(i);
+
+            CharacterAllStatement lcas = new CharacterAllStatement();
+            lcas.Statement = child.name;
+
+            CharacterAllStatement rcas = new CharacterAllStatement();
+            rcas.Statement = child.name;
+
+            List<FrameData> LeftFrames = new List<FrameData>();
+            List<FrameData> RightFrames = new List<FrameData>();
+
+            for (int j = 0; j < child.childCount; j++)
+            {
+                LeftFrames.Add(GetLeftSideFrameData(child.GetChild(j)));
+                RightFrames.Add(GetRightSideFrameData(child.GetChild(j)));
+            }
+
+            lcas.FrameData = LeftFrames;
+            CharacterAllLeftSideStatements.Add(lcas);
+            rcas.FrameData = RightFrames;
+            CharacterAllRightSideStatements.Add(rcas);
+        }
+
+        LeftWriter.Write(JsonSerializer.Serialize(CharacterAllLeftSideStatements));
+        LeftWriter.Flush();
+        LeftWriter.Close();
+        Debug.Log("LeftWrite Complete");
+
+        RightWriter.Write(JsonSerializer.Serialize(CharacterAllRightSideStatements));
+        RightWriter.Flush();
+        RightWriter.Close();
+        Debug.Log("RightWrite Complete");
+    }
+
+    private FrameData GetRightSideFrameData(Transform transform)
+    {
+        int frameNumber = int.Parse(transform.name);
+        Vector3 originalCenter = transform.GetChild(0).localPosition;
+        float[] center = new float[] { originalCenter.x * Scale, originalCenter.y * Scale };
+
+        List<HurtBox> hurtBoxes = new List<HurtBox>();
+
+        for (int i = 0; i < transform.GetChild(0).childCount; i++)
+        {
+            Transform part = transform.GetChild(0).GetChild(i);
+            BoxCollider boxCollider = part.GetComponent<BoxCollider>();
+            SpriteRenderer sr = transform.GetComponent<SpriteRenderer>();
+            Debug.Log(sr.sprite.name);
+
+            Vector3 pivotOffset = Vector3.zero;
+
+            if (sr != null && sr.sprite != null)
+            {
+                Sprite sprite = sr.sprite;
+                Vector2 pivot = sprite.pivot;
+                Vector2 size = sprite.rect.size;
+                Vector2 normalizedPivot = new Vector2(pivot.x / size.x, pivot.y / size.y);
+
+                Vector2 spriteWorldSize = sprite.bounds.size;
+                pivotOffset = new Vector3(
+                    (0.5f - normalizedPivot.x) * spriteWorldSize.x,
+                    (0.5f - normalizedPivot.y) * spriteWorldSize.y,
+                    0
+                );
+            }
+
+            Vector3 worldBoxCenter = part.TransformPoint(boxCollider.center + pivotOffset);
+            Vector3 scaledWorldCenter = (worldBoxCenter - transform.position) * Scale + transform.position;
+
+            float mirroredX = 2 * transform.position.x - scaledWorldCenter.x;
+            Vector3 mirroredWorldCenter = new Vector3(mirroredX, scaledWorldCenter.y, scaledWorldCenter.z);
+            Vector3 localOffset = transform.InverseTransformPoint(mirroredWorldCenter);
+
+            Vector3 scaledSize = boxCollider.size * Scale;
+
+            HurtBox hurtBox = new HurtBox();
+            hurtBox.PartName = part.name;
+            hurtBox.OffSet = new float[] { localOffset.x, localOffset.y };
+            hurtBox.Size = new float[] { scaledSize.x, scaledSize.y };
+            hurtBoxes.Add(hurtBox);
+        }
+
+        return new FrameData(frameNumber, center, hurtBoxes);
+    }
+
+    private FrameData GetLeftSideFrameData(Transform transform)
+    {
+        int frameNumber = int.Parse(transform.name);
+        Vector3 originalCenter = transform.GetChild(0).localPosition;
+        float[] center = new float[2] { originalCenter.x * Scale, originalCenter.y * Scale };
+
+        List<HurtBox> hurtBoxes = new List<HurtBox>();
+
+        for (int i = 0; i < transform.GetChild(0).childCount; i++)
+        {
+            Transform part = transform.GetChild(0).GetChild(i);
+            BoxCollider boxCollider = part.GetComponent<BoxCollider>();
+            SpriteRenderer sr = part.GetComponent<SpriteRenderer>();
+
+            Vector3 pivotOffset = Vector3.zero;
+
+            if (sr != null && sr.sprite != null)
+            {
+                Sprite sprite = sr.sprite;
+                Vector2 pivot = sprite.pivot;
+                Vector2 size = sprite.rect.size;
+                Vector2 normalizedPivot = new Vector2(pivot.x / size.x, pivot.y / size.y);
+
+                Vector2 spriteWorldSize = sprite.bounds.size;
+                pivotOffset = new Vector3(
+                    (0.5f - normalizedPivot.x) * spriteWorldSize.x,
+                    (0.5f - normalizedPivot.y) * spriteWorldSize.y,
+                    0
+                );
+            }
+
+            Vector3 worldBoxCenter = part.TransformPoint(boxCollider.center + pivotOffset);
+            Vector3 scaledWorldCenter = (worldBoxCenter - transform.position) * Scale + transform.position;
+            Vector3 localOffset = transform.InverseTransformPoint(scaledWorldCenter);
+            Vector3 scaledSize = boxCollider.size * Scale;
+
+            HurtBox hurtBox = new HurtBox();
+            hurtBox.PartName = part.name;
+            hurtBox.OffSet = new float[] { localOffset.x, localOffset.y };
+            hurtBox.Size = new float[] { scaledSize.x, scaledSize.y };
+            hurtBoxes.Add(hurtBox);
+        }
+
+        return new FrameData(frameNumber, center, hurtBoxes);
     }
 
     public class HurtBox
