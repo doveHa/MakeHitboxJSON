@@ -331,6 +331,59 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 0.31077993, y: 0.39077377, z: 1}
   m_Center: {x: 0.25982326, y: 0.122392654, z: 0}
+--- !u!1 &43375248
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 43375249}
+  - component: {fileID: 43375250}
+  m_Layer: 0
+  m_Name: HurtBox
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &43375249
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 43375248}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 754945965}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!65 &43375250
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 43375248}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 2.2032516, y: 0.4563388, z: 1}
+  m_Center: {x: 0.77753526, y: -0.008546305, z: 0}
 --- !u!1 &55230202
 GameObject:
   m_ObjectHideFlags: 0
@@ -6091,6 +6144,11 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 1.0569565, y: 1.0227486, z: 1}
   m_Center: {x: 0.2307869, y: 0.6621319, z: 0}
+--- !u!4 &754945965 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 7585704630677351358, guid: 169d9b95857a43142b85ca5680ddef6f, type: 3}
+  m_PrefabInstance: {fileID: 6779784173202567445}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &764964945
 GameObject:
   m_ObjectHideFlags: 0
@@ -18643,6 +18701,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 3005159002068332817, guid: 169d9b95857a43142b85ca5680ddef6f, type: 3}
       insertIndex: -1
       addedObject: {fileID: 2112215097}
+    - targetCorrespondingSourceObject: {fileID: 7585704630677351358, guid: 169d9b95857a43142b85ca5680ddef6f, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 43375249}
     - targetCorrespondingSourceObject: {fileID: 7716553651509466782, guid: 169d9b95857a43142b85ca5680ddef6f, type: 3}
       insertIndex: -1
       addedObject: {fileID: 2007922571}
