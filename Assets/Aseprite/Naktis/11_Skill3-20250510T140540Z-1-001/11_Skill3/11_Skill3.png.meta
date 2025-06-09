@@ -105,19 +105,6 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 4
-    buildTarget: Android
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    ignorePlatformSupport: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
@@ -125,9 +112,9 @@ TextureImporter:
       name: 11_Skill3_0
       rect:
         serializedVersion: 2
-        x: 18
+        x: 59
         y: 637
-        width: 322
+        width: 366
         height: 244
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -149,7 +136,7 @@ TextureImporter:
         serializedVersion: 2
         x: 636
         y: 639
-        width: 221
+        width: 250
         height: 244
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -169,10 +156,10 @@ TextureImporter:
       name: 11_Skill3_2
       rect:
         serializedVersion: 2
-        x: 185
-        y: 123
-        width: 283
-        height: 345
+        x: 44
+        y: 90
+        width: 400
+        height: 320
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -191,9 +178,9 @@ TextureImporter:
       name: 11_Skill3_3
       rect:
         serializedVersion: 2
-        x: 680
+        x: 552
         y: 126
-        width: 305
+        width: 433
         height: 244
       alignment: 0
       pivot: {x: 0.5, y: 0.5}

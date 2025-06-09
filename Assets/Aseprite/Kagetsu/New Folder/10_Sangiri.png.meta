@@ -146,397 +146,265 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: 10_Sangiri_0
+      name: 10_Skill2_0
       rect:
         serializedVersion: 2
-        x: 12
-        y: 1080
-        width: 206
-        height: 238
+        x: 11
+        y: 1079
+        width: 208
+        height: 240
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: 006a53e3dda8edb439b33b27263db49c
-      internalID: 914787648
+      spriteID: b1012c84fb67ecdf0800000000000000
+      internalID: -158058372979879909
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 10_Sangiri_1
+      name: 10_Skill2_1
       rect:
         serializedVersion: 2
-        x: 424
-        y: 1080
-        width: 186
-        height: 242
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        x: 429
+        y: 1079
+        width: 182
+        height: 244
+      alignment: 9
+      pivot: {x: 0.5035431, y: 0.4894294}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: 98a4a61eac18a4e44bbca2adc1011c6d
-      internalID: -1134683833
+      spriteID: 6d1af7422acfdb850800000000000000
+      internalID: 6394544819263218134
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 10_Sangiri_2
+      name: 10_Skill2_2
       rect:
         serializedVersion: 2
         x: 748
         y: 1080
-        width: 318
+        width: 320
+        height: 240
+      alignment: 9
+      pivot: {x: 0.45365372, y: 0.49731344}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b4836d9792d9c6920800000000000000
+      internalID: 2984933454503098443
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 10_Skill2_3
+      rect:
+        serializedVersion: 2
+        x: 1125
+        y: 1079
+        width: 228
         height: 238
+      alignment: 9
+      pivot: {x: 0.5961555, y: 0.5054193}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 35940d6f0d96a51c0800000000000000
+      internalID: -4514179330270541485
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 10_Skill2_4
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 719
+        width: 320
+        height: 240
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: 5f921e42493eb76469447daf241debdc
-      internalID: 410022153
+      spriteID: 804114ba2fa9319f0800000000000000
+      internalID: -498884766662061048
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 10_Sangiri_3
+      name: 10_Skill2_5
       rect:
         serializedVersion: 2
-        x: 1151
-        y: 1074
-        width: 206
+        x: 405
+        y: 719
+        width: 228
         height: 238
+      alignment: 9
+      pivot: {x: 0.5763598, y: 0.51625615}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a78a4126a8b8e91a0800000000000000
+      internalID: -6800844960815601542
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 10_Skill2_6
+      rect:
+        serializedVersion: 2
+        x: 797
+        y: 719
+        width: 192
+        height: 244
+      alignment: 9
+      pivot: {x: 0.5061919, y: 0.49999925}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2c4bfef12345156d0800000000000000
+      internalID: -3003526902218509118
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 10_Skill2_7
+      rect:
+        serializedVersion: 2
+        x: 1175
+        y: 719
+        width: 188
+        height: 244
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: 0910d714f6baf7f4197748711f70eaa2
-      internalID: 417186891
+      spriteID: d805637f7a9fc8de0800000000000000
+      internalID: -1329413290178752371
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 10_Sangiri_4
+      name: 10_Skill2_8
       rect:
         serializedVersion: 2
-        x: 36
-        y: 730
-        width: 186
-        height: 242
+        x: 85
+        y: 359
+        width: 246
+        height: 254
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: ab79fbaecc8f48342b7c1811586666d2
-      internalID: 1559508865
+      spriteID: 9de1b2f3e3a6b4be0800000000000000
+      internalID: -1491982035962880295
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 10_Sangiri_5
+      name: 10_Skill2_9
       rect:
         serializedVersion: 2
-        x: 350
-        y: 744
-        width: 318
-        height: 238
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 91ce144b9a525a64db75fbc7a07286c6
-      internalID: -1270260921
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: 10_Sangiri_6
-      rect:
-        serializedVersion: 2
-        x: 746
-        y: 736
-        width: 226
-        height: 236
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: e6f4e3f176836264bb790d05d5e89b8d
-      internalID: -275748845
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: 10_Sangiri_7
-      rect:
-        serializedVersion: 2
-        x: 1139
-        y: 929
-        width: 4
-        height: 5
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: b133d0515064c1c4e8e9ae6eb85ac9a6
-      internalID: -229002649
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: 10_Sangiri_8
-      rect:
-        serializedVersion: 2
-        x: 1134
-        y: 738
+        x: 405
+        y: 359
         width: 212
-        height: 242
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        height: 344
+      alignment: 9
+      pivot: {x: 0.74028534, y: 0.35191736}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: aef202e4685503b4eb4c2e8dd7032378
-      internalID: -280526113
+      spriteID: 8202aff11f76979c0800000000000000
+      internalID: -3928994914582781912
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 10_Sangiri_9
+      name: 10_Skill2_10
       rect:
         serializedVersion: 2
-        x: 1136
-        y: 915
-        width: 7
-        height: 7
+        x: 805
+        y: 359
+        width: 188
+        height: 254
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: a2e019ab92576ba4dbe55c32ff20ef3a
-      internalID: 753600501
+      spriteID: c164684e5bea80dc0800000000000000
+      internalID: -3672493399874320868
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 10_Sangiri_10
+      name: 10_Skill2_11
       rect:
         serializedVersion: 2
-        x: 38
-        y: 648
-        width: 10
-        height: 7
+        x: 1119
+        y: 359
+        width: 172
+        height: 244
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: f6372a8427f04604fbfef3c0ccb03d25
-      internalID: -627328650
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: 10_Sangiri_11
-      rect:
-        serializedVersion: 2
-        x: 718
-        y: 345
-        width: 312
-        height: 361
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: cb8ae6b52ce94c64f91736a9eda4a19c
-      internalID: -1404579829
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: 10_Sangiri_12
-      rect:
-        serializedVersion: 2
-        x: 1132
-        y: 407
-        width: 243
-        height: 257
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 2c87d0a500bd8f840afff52333383815
-      internalID: 1555490105
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: 10_Sangiri_13
-      rect:
-        serializedVersion: 2
-        x: 6
-        y: 626
-        width: 6
-        height: 7
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 0ce6bf95356579b4c90329d344be305d
-      internalID: -668342613
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: 10_Sangiri_14
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 396
-        width: 264
-        height: 261
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 27657b893b91a8f41bd51b8632369455
-      internalID: -1771242201
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: 10_Sangiri_15
-      rect:
-        serializedVersion: 2
-        x: 349
-        y: 353
-        width: 273
-        height: 294
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: c88cb59bab25dec4bb8834f7edb878c1
-      internalID: -868929137
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: 10_Sangiri_16
-      rect:
-        serializedVersion: 2
-        x: 1
-        y: 605
-        width: 11
-        height: 11
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 17194fd2174da7946b715dfda665fa1a
-      internalID: 389349384
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: 10_Sangiri_17
-      rect:
-        serializedVersion: 2
-        x: 70
-        y: 51
-        width: 234
-        height: 242
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: f3dedef9285613f499d63eeac264f63c
-      internalID: -484088776
+      spriteID: 2c8b221d85b7a9c50800000000000000
+      internalID: 6672781419298863298
       vertices: []
       indices: 
       edges: []
@@ -553,30 +421,20 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     spriteCustomMetadata:
-      entries:
-      - key: SpriteEditor.SliceSettings
-        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":64.0,"y":64.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"slicingType":0,"keepEmptyRects":false,"isAlternate":false}'
+      entries: []
     nameFileIdTable:
-      10_Sangiri_0: 914787648
-      10_Sangiri_1: -1134683833
-      10_Sangiri_10: -627328650
-      10_Sangiri_11: -1404579829
-      10_Sangiri_12: 1555490105
-      10_Sangiri_13: -668342613
-      10_Sangiri_14: -1771242201
-      10_Sangiri_15: -868929137
-      10_Sangiri_16: 389349384
-      10_Sangiri_17: -484088776
-      10_Sangiri_18: -783009753
-      10_Sangiri_19: -1436456642
-      10_Sangiri_2: 410022153
-      10_Sangiri_3: 417186891
-      10_Sangiri_4: 1559508865
-      10_Sangiri_5: -1270260921
-      10_Sangiri_6: -275748845
-      10_Sangiri_7: -229002649
-      10_Sangiri_8: -280526113
-      10_Sangiri_9: 753600501
+      10_Skill2_0: -158058372979879909
+      10_Skill2_1: 6394544819263218134
+      10_Skill2_10: -3672493399874320868
+      10_Skill2_11: 6672781419298863298
+      10_Skill2_2: 2984933454503098443
+      10_Skill2_3: -4514179330270541485
+      10_Skill2_4: -498884766662061048
+      10_Skill2_5: -6800844960815601542
+      10_Skill2_6: -3003526902218509118
+      10_Skill2_7: -1329413290178752371
+      10_Skill2_8: -1491982035962880295
+      10_Skill2_9: -3928994914582781912
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

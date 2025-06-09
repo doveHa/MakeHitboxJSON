@@ -140,309 +140,221 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: 12_IttoRyotan_0
+      name: 11_Skill4_0
       rect:
         serializedVersion: 2
-        x: 40
-        y: 720
-        width: 170
-        height: 242
+        x: 39
+        y: 719
+        width: 172
+        height: 244
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: e09ada58ba589e44ea000b25a031755f
-      internalID: -376415519
+      spriteID: fea162b0bbd346950800000000000000
+      internalID: 6441341240601877231
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 12_IttoRyotan_1
+      name: 11_Skill4_1
       rect:
         serializedVersion: 2
         x: 404
-        y: 720
-        width: 186
-        height: 248
+        y: 716
+        width: 188
+        height: 250
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: 975f61d92e075574cbe49bc54617a05f
-      internalID: -2109950049
+      spriteID: 4d2f8b61ae72f89b0800000000000000
+      internalID: -5075794368666209580
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 12_IttoRyotan_2
+      name: 11_Skill4_2
       rect:
         serializedVersion: 2
-        x: 764
-        y: 720
-        width: 234
-        height: 248
+        x: 722
+        y: 716
+        width: 277
+        height: 250
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: b1980a04224ad3d498548e1eadb59fb5
-      internalID: 1929621066
+      spriteID: 004eeb799f61126d0800000000000000
+      internalID: -3017105014112984064
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 12_IttoRyotan_3
+      name: 11_Skill4_3
       rect:
         serializedVersion: 2
-        x: 1092
-        y: 720
-        width: 206
-        height: 238
+        x: 1091
+        y: 719
+        width: 208
+        height: 240
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: aaff2676cb1131c428700b5ad60f59ff
-      internalID: -2104055719
+      spriteID: 014aad105a8e3a0d0800000000000000
+      internalID: -3412628297218350064
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 12_IttoRyotan_4
+      name: 11_Skill4_4
       rect:
         serializedVersion: 2
-        x: 426
-        y: 616
-        width: 10
-        height: 7
+        x: 69
+        y: 359
+        width: 182
+        height: 244
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: 805a86db461f97c4187476ea0fdfaf96
-      internalID: -1125356535
+      spriteID: c72109eb3929804a0800000000000000
+      internalID: -6626885688420724100
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 12_IttoRyotan_5
+      name: 11_Skill4_5
       rect:
         serializedVersion: 2
-        x: 1090
-        y: 345
-        width: 312
-        height: 361
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        x: 455
+        y: 357
+        width: 188
+        height: 244
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5240197}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: bc1d16bfab89f374396bf78927b56607
-      internalID: -145862904
+      spriteID: d2d9085d47e1437f0800000000000000
+      internalID: -633848160405381843
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 12_IttoRyotan_6
+      name: 11_Skill4_6
       rect:
         serializedVersion: 2
-        x: 57
-        y: 360
-        width: 193
-        height: 242
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        x: 805
+        y: 362
+        width: 246
+        height: 262
+      alignment: 9
+      pivot: {x: 0.46293926, y: 0.4776305}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: aeb20497e9e61fc439e7f6f6aa728dce
-      internalID: -2138264199
+      spriteID: 254ad2f86695b0780800000000000000
+      internalID: -8715774356821793710
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 12_IttoRyotan_7
+      name: 11_Skill4_7
       rect:
         serializedVersion: 2
-        x: 394
-        y: 594
-        width: 6
-        height: 7
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        x: 1145
+        y: 362
+        width: 227
+        height: 346
+      alignment: 9
+      pivot: {x: 0.65222865, y: 0.35277757}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: e00411e8f283cb245b950e1a3a069bad
-      internalID: -367478893
+      spriteID: 234d3abdccc9adc20800000000000000
+      internalID: 3232068086263960626
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 12_IttoRyotan_8
+      name: 11_Skill4_8
       rect:
         serializedVersion: 2
-        x: 405
-        y: 364
-        width: 247
-        height: 242
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: cadd3ba2f9121f24c8b8822e2c5646bf
-      internalID: 1812323341
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: 12_IttoRyotan_9
-      rect:
-        serializedVersion: 2
-        x: 764
-        y: 313
-        width: 273
-        height: 294
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: b987968f8a130364dad4aeaba87e7048
-      internalID: 1475998180
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: 12_IttoRyotan_10
-      rect:
-        serializedVersion: 2
-        x: 389
-        y: 573
-        width: 11
-        height: 11
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 78df4d45a9475b44281d5970df7e5410
-      internalID: 488638206
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: 12_IttoRyotan_11
-      rect:
-        serializedVersion: 2
-        x: 53
-        y: 519
-        width: 8
-        height: 5
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 2cd2f7c26b2e7094d8e63aef8154c2bd
-      internalID: 1017103525
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: 12_IttoRyotan_12
-      rect:
-        serializedVersion: 2
-        x: 65
-        y: 2
-        width: 243
-        height: 257
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 3de9e72042c29cb47978456bdef5ca13
-      internalID: 1598086029
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: 12_IttoRyotan_13
-      rect:
-        serializedVersion: 2
-        x: 395
+        x: 94
         y: 1
-        width: 234
-        height: 242
+        width: 188
+        height: 253
+      alignment: 9
+      pivot: {x: 0.5554208, y: 0.50000024}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 17e03f39745947490800000000000000
+      internalID: -7749404924140384655
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 11_Skill4_9
+      rect:
+        serializedVersion: 2
+        x: 399
+        y: 0
+        width: 172
+        height: 243
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: 88aeb4fe46b35a24fbf586e0d12a19c7
-      internalID: 921027034
+      spriteID: bf8961da5f6aa8e80800000000000000
+      internalID: -8175538599436576517
       vertices: []
       indices: 
       edges: []
@@ -459,26 +371,18 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     spriteCustomMetadata:
-      entries:
-      - key: SpriteEditor.SliceSettings
-        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":64.0,"y":64.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"slicingType":0,"keepEmptyRects":false,"isAlternate":false}'
+      entries: []
     nameFileIdTable:
-      12_IttoRyotan_0: -376415519
-      12_IttoRyotan_1: -2109950049
-      12_IttoRyotan_10: 488638206
-      12_IttoRyotan_11: 1017103525
-      12_IttoRyotan_12: 1598086029
-      12_IttoRyotan_13: 921027034
-      12_IttoRyotan_14: 1311388101
-      12_IttoRyotan_15: 109501228
-      12_IttoRyotan_2: 1929621066
-      12_IttoRyotan_3: -2104055719
-      12_IttoRyotan_4: -1125356535
-      12_IttoRyotan_5: -145862904
-      12_IttoRyotan_6: -2138264199
-      12_IttoRyotan_7: -367478893
-      12_IttoRyotan_8: 1812323341
-      12_IttoRyotan_9: 1475998180
+      11_Skill4_0: 6441341240601877231
+      11_Skill4_1: -5075794368666209580
+      11_Skill4_2: -3017105014112984064
+      11_Skill4_3: -3412628297218350064
+      11_Skill4_4: -6626885688420724100
+      11_Skill4_5: -633848160405381843
+      11_Skill4_6: -8715774356821793710
+      11_Skill4_7: 3232068086263960626
+      11_Skill4_8: -7749404924140384655
+      11_Skill4_9: -8175538599436576517
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
