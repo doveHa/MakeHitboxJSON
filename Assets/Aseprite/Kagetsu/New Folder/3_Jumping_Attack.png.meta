@@ -178,9 +178,9 @@ TextureImporter:
       name: 3_Jumping_Attack_2
       rect:
         serializedVersion: 2
-        x: 637
+        x: 601
         y: 516
-        width: 244
+        width: 280
         height: 234
       alignment: 9
       pivot: {x: 0.3903676, y: 0.49745947}
@@ -202,7 +202,7 @@ TextureImporter:
         serializedVersion: 2
         x: 17
         y: 259
-        width: 188
+        width: 271
         height: 236
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -224,7 +224,7 @@ TextureImporter:
         serializedVersion: 2
         x: 305
         y: 263
-        width: 186
+        width: 248
         height: 234
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -246,7 +246,7 @@ TextureImporter:
         serializedVersion: 2
         x: 623
         y: 263
-        width: 184
+        width: 208
         height: 230
       alignment: 0
       pivot: {x: 0.5, y: 0.5}

@@ -125,111 +125,111 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: 09_Skill1_0
+      name: 09_Nageru_0
       rect:
         serializedVersion: 2
-        x: 49
-        y: 255
-        width: 172
-        height: 244
+        x: 17
+        y: 253
+        width: 170
+        height: 242
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 937b5db14ad6a2260800000000000000
-      internalID: 7073586716347840313
+      spriteID: 92dd5d491d871134e81b5da9aae3a748
+      internalID: 165463320
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 09_Skill1_1
+      name: 09_Nageru_1
       rect:
         serializedVersion: 2
-        x: 267
-        y: 255
-        width: 214
-        height: 248
+        x: 229
+        y: 256
+        width: 212
+        height: 246
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 606263918b3b61a50800000000000000
-      internalID: 6491573516179482118
+      spriteID: a461edc9ab0c2e849b3b5116589b2394
+      internalID: 1419323176
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 09_Skill1_2
+      name: 09_Nageru_2
       rect:
         serializedVersion: 2
-        x: 539
-        y: 255
-        width: 198
-        height: 228
-      alignment: 9
-      pivot: {x: 0.474712, y: 0.53450924}
+        x: 491
+        y: 257
+        width: 273
+        height: 226
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 8f53b05c7c15e0a20800000000000000
-      internalID: 3030449517713110520
+      spriteID: 470aeafa5525d8145abaf1e9a44117af
+      internalID: 1678403250
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 09_Skill1_3
+      name: 09_Nageru_5
       rect:
         serializedVersion: 2
-        x: 31
+        x: 24
         y: 0
-        width: 208
-        height: 227
-      alignment: 9
-      pivot: {x: 0.4862444, y: 0.5346613}
+        width: 322
+        height: 226
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 4f3997693c0715b40800000000000000
-      internalID: 5427243011303642100
+      spriteID: 7de2f4b2442d6b34dab591b8b9a9770e
+      internalID: -1522391955
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 09_Skill1_4
+      name: 09_Nageru_7
       rect:
         serializedVersion: 2
-        x: 305
+        x: 360
         y: 0
-        width: 172
-        height: 243
+        width: 170
+        height: 241
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 76c481b0fd396b7f0800000000000000
-      internalID: -597127314406880153
+      spriteID: 636a7d3d3c2131343b9da01bf811e277
+      internalID: -1668431635
       vertices: []
       indices: 
       edges: []
@@ -246,13 +246,18 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     spriteCustomMetadata:
-      entries: []
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":64.0,"y":64.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"slicingType":0,"keepEmptyRects":false,"isAlternate":false}'
     nameFileIdTable:
-      09_Skill1_0: 7073586716347840313
-      09_Skill1_1: 6491573516179482118
-      09_Skill1_2: 3030449517713110520
-      09_Skill1_3: 5427243011303642100
-      09_Skill1_4: -597127314406880153
+      09_Nageru_0: 165463320
+      09_Nageru_1: 1419323176
+      09_Nageru_2: 1678403250
+      09_Nageru_3: -194510318
+      09_Nageru_4: -556680831
+      09_Nageru_5: -1522391955
+      09_Nageru_6: -1575513075
+      09_Nageru_7: -1668431635
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
