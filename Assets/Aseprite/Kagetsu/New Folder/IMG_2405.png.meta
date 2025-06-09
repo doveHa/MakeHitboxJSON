@@ -1,28 +1,28 @@
 fileFormatVersion: 2
-guid: 85c4a3b0272acc04e9072e1ae5275d28
+guid: aadf10bf597725349aef5f2caa55355e
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -7458691169465416630
-    second: 3_Jumping_Attack_0
+      213: -7959397832096362781
+    second: IMG_2405_0
   - first:
-      213: -2839509216243495600
-    second: 3_Jumping_Attack_1
+      213: -2706077474241940492
+    second: IMG_2405_1
   - first:
-      213: 5727622667265472418
-    second: 3_Jumping_Attack_2
+      213: -2367499303375367162
+    second: IMG_2405_2
   - first:
-      213: -70802662995033755
-    second: 3_Jumping_Attack_3
+      213: -5993781562508030566
+    second: IMG_2405_3
   - first:
-      213: -7868194894102226934
-    second: 3_Jumping_Attack_4
+      213: -527336853224932900
+    second: IMG_2405_4
   - first:
-      213: 1196058032820913201
-    second: 3_Jumping_Attack_5
+      213: 8316184170969671985
+    second: IMG_2405_5
   - first:
-      213: 2863243138406437979
-    second: 3_Jumping_Attack_6
+      213: -8036457970539619838
+    second: IMG_2405_6
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -131,7 +131,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: 3_Jumping_Attack_0
+      name: IMG_2405_0
       rect:
         serializedVersion: 2
         x: 5
@@ -139,21 +139,21 @@ TextureImporter:
         width: 208
         height: 224
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: a44cba236e76d7890800000000000000
-      internalID: -7458691169465416630
+      spriteID: 3eec1e7a7d98a8190800000000000000
+      internalID: -7959397832096362781
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 3_Jumping_Attack_1
+      name: IMG_2405_1
       rect:
         serializedVersion: 2
         x: 323
@@ -161,109 +161,109 @@ TextureImporter:
         width: 184
         height: 230
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 05dcb5589690898d0800000000000000
-      internalID: -2839509216243495600
+      spriteID: 4f37f15efd4127ad0800000000000000
+      internalID: -2706077474241940492
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 3_Jumping_Attack_2
+      name: IMG_2405_2
       rect:
         serializedVersion: 2
-        x: 601
-        y: 516
-        width: 280
+        x: 603
+        y: 515
+        width: 278
         height: 234
-      alignment: 9
-      pivot: {x: 0.3903676, y: 0.49745947}
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 2a775d9387a9c7f40800000000000000
-      internalID: 5727622667265472418
+      spriteID: 60493585de3f42fd0800000000000000
+      internalID: -2367499303375367162
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 3_Jumping_Attack_3
+      name: IMG_2405_3
       rect:
         serializedVersion: 2
-        x: 17
+        x: 16
         y: 259
-        width: 271
+        width: 270
         height: 236
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 56187076a55740ff0800000000000000
-      internalID: -70802662995033755
+      spriteID: a9d4c61ec6fc1dca0800000000000000
+      internalID: -5993781562508030566
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 3_Jumping_Attack_4
+      name: IMG_2405_4
       rect:
         serializedVersion: 2
         x: 305
         y: 263
-        width: 248
+        width: 246
         height: 234
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: a089e796e6e8ec290800000000000000
-      internalID: -7868194894102226934
+      spriteID: cd93e8a0de58ea8f0800000000000000
+      internalID: -527336853224932900
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 3_Jumping_Attack_5
+      name: IMG_2405_5
       rect:
         serializedVersion: 2
         x: 623
         y: 263
-        width: 208
+        width: 207
         height: 230
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 1340b01a170499010800000000000000
-      internalID: 1196058032820913201
+      spriteID: 139af554175096370800000000000000
+      internalID: 8316184170969671985
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 3_Jumping_Attack_6
+      name: IMG_2405_6
       rect:
         serializedVersion: 2
         x: 37
@@ -271,15 +271,15 @@ TextureImporter:
         width: 184
         height: 224
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: b545a4ad6784cb720800000000000000
-      internalID: 2863243138406437979
+      spriteID: 20a11a50e04c87090800000000000000
+      internalID: -8036457970539619838
       vertices: []
       indices: 
       edges: []
@@ -288,7 +288,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: b4e564c0b3b8cba438518e928ee8453c
+    spriteID: 
     internalID: 0
     vertices: []
     indices: 
@@ -297,14 +297,7 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable:
-      3_Jumping_Attack_0: -7458691169465416630
-      3_Jumping_Attack_1: -2839509216243495600
-      3_Jumping_Attack_2: 5727622667265472418
-      3_Jumping_Attack_3: -70802662995033755
-      3_Jumping_Attack_4: -7868194894102226934
-      3_Jumping_Attack_5: 1196058032820913201
-      3_Jumping_Attack_6: 2863243138406437979
+    nameFileIdTable: {}
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
